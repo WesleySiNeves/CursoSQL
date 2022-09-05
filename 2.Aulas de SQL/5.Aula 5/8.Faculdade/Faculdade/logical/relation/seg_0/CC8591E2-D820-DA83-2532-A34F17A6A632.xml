@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DisciplinasOfertadas_Notas" directorySegmentName="seg_0" id="CC8591E2-D820-DA83-2532-A34F17A6A632">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:01:21 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourcePk>9DC4AC93-9958-4C35-3A9C-FACA2BBE26D9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F3FB1179-C16A-1056-22F5-CCB30E1011DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C30DE48-A450-641E-F902-64F02FBB7162</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

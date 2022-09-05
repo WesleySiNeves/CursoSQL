@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D143BA97-47BD-74B8-8277-175F5F48D8B5" name="MatriculasSituacoes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:35:34 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdMatriculaSituacao" id="57916A6F-6F1C-6FF2-2F5E-41E4F1577C2B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:35:43 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descricao" id="5A11E234-417C-4572-686C-0892FE468A93">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:36:02 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D86A6BE7-C1C0-8049-E9E6-70FA74D2D9CD" name="MatriculasSituacoes PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:36:00 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57916A6F-6F1C-6FF2-2F5E-41E4F1577C2B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

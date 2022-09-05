@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Notas_Possuem_Tipos" directorySegmentName="seg_0" id="2A9517A6-48E3-F9D0-8AAA-8486F973F6A4">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 13:57:39 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourcePk>78726815-21BD-C92B-B8E3-DE9CCD2637F9</sourcePk>
+<dominantRole>9E76F950-203A-0BE0-8820-F7F904EE2DB4</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9E76F950-203A-0BE0-8820-F7F904EE2DB4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5C30DE48-A450-641E-F902-64F02FBB7162</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

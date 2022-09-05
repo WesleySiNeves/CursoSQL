@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E49E6C1F-F7DA-36CE-9D75-7E834893BEDF" schemaObject="D159F3AE-63DC-8653-7E67-039D9548BE3D" name="DisciplinasOfertadas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>F3FB1179-C16A-1056-22F5-CCB30E1011DD</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDisciplinaOfertada" id="4D68AF15-DC01-F7B9-47EF-3275B0F45F2B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>032C0DFB-3425-0601-193E-AFE2422E0790</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdProfessorDisciplina" id="69DF8545-D260-FA01-D2B5-D3CBE5700DB0">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>77BCD347-FD73-A623-BA77-34DF91997D91</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFDD020D-5DBA-C981-E147-83D385A2BA14" referredColumn="EBA21AD8-AC62-50A5-2D7C-D8304B6041BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E2A09F3-AFA1-CE67-2C89-AF42668ECDA3" name="DisciplinasOfertadas_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>9DC4AC93-9958-4C35-3A9C-FACA2BBE26D9</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D68AF15-DC01-F7B9-47EF-3275B0F45F2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F19BC49D-B0A4-E4FC-E720-578D6E6C91BD" name="DisciplinasOfertadas__IDX">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>33E62FA9-89AB-0157-067C-47D22CA2D258</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="69DF8545-D260-FA01-D2B5-D3CBE5700DB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FAFD4C4-DECA-2339-8E3D-F1938FE59B5C" name="DisciplinasOfertadas_ProfessoresDisciplinas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>33E62FA9-89AB-0157-067C-47D22CA2D258</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69DF8545-D260-FA01-D2B5-D3CBE5700DB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

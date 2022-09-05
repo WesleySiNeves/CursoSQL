@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Matriculas_Possuem_faltas" directorySegmentName="seg_0" id="BD319987-9723-7931-307E-390432C224F8">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:03:11 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourcePk>8A4591D5-18C9-90AB-2C7A-94CB4B73889D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>83B10BCE-765F-E11B-9EBE-5B84CC2AB4DF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>141C9FD6-D9D1-E9CE-5428-CABD4A1723A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PeriodosMatriculas" directorySegmentName="seg_0" id="044FCDD6-CCD5-8126-4DEA-93ADB7D38B49">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:31:40 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourcePk>BD2323EE-AB45-9410-498B-114B5F3A4B7D</sourcePk>
+<dominantRole>7DBC9CCE-06E0-BD47-6DA4-2FE6EEE1825F</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7DBC9CCE-06E0-BD47-6DA4-2FE6EEE1825F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>83B10BCE-765F-E11B-9EBE-5B84CC2AB4DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

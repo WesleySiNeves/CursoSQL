@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF82D18A-48EE-4C99-F69B-09B16B8CEB54" name="ProfessoresDisciplinas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 18:45:02 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdProfessorDisciplina" id="30BB161D-2E52-3C1E-3D23-C1BE101BFA36">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 18:45:11 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdProfessor" id="930D06FC-EECF-04C6-996F-FF38C43C78D6">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 18:45:31 UTC</createdTime>
+<generatorID>67851668-F974-E330-0111-2A56F7E5E7CD</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>1DB1E9E0-9DC6-C2BF-A237-6766565CE19B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdDisciplina" id="938DFD9B-E625-098A-8DBF-0F4D4C1A57F6">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 18:46:43 UTC</createdTime>
+<generatorID>68DCCF94-86CD-92BF-A7EE-874A76166E04</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>9BA46AD1-C4BF-5E62-A05D-09ABAC5C4817</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25E84461-BF72-001C-1860-28E65DCD4185" name="ProfessoresDisciplinas PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 18:45:21 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30BB161D-2E52-3C1E-3D23-C1BE101BFA36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

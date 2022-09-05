@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CF302AB-EB55-A63B-53D5-3AF71FD7F388" schemaObject="D159F3AE-63DC-8653-7E67-039D9548BE3D" name="ProfessoresSituacoes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>EDA4F612-DDB1-142B-B2A0-711425F80AC1</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdProfessoresSituacao" id="D12A63FE-94E4-9F2B-A9C0-95D3ADC9D11B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>AC7C079A-9481-5455-3DF8-A790638BC0D6</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="475FE445-3A7E-3C58-E989-1C9900F1D8B7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>0DD8CC22-B9C0-84D8-46FC-98C93C3EAE44</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85BB1FFB-3E17-5A11-7392-ABE213752C00" name="ProfessoresSituacoes_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>6F723D87-B482-4741-9D63-E5BD16DCC89B</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D12A63FE-94E4-9F2B-A9C0-95D3ADC9D11B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

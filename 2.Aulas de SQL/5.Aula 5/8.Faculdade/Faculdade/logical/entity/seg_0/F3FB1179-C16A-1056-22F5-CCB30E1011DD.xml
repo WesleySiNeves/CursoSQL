@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3FB1179-C16A-1056-22F5-CCB30E1011DD" name="DisciplinasOfertadas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:45:38 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdDisciplinaOfertada" id="032C0DFB-3425-0601-193E-AFE2422E0790">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:46:00 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdProfessorDisciplina" id="77BCD347-FD73-A623-BA77-34DF91997D91">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 18:50:57 UTC</createdTime>
+<generatorID>33E62FA9-89AB-0157-067C-47D22CA2D258</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>30BB161D-2E52-3C1E-3D23-C1BE101BFA36</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9DC4AC93-9958-4C35-3A9C-FACA2BBE26D9" name="DisciplinasOfertadas PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:46:15 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>032C0DFB-3425-0601-193E-AFE2422E0790</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

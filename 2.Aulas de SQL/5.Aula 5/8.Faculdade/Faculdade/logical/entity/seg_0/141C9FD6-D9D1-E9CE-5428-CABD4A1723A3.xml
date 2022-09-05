@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="141C9FD6-D9D1-E9CE-5428-CABD4A1723A3" name="DisciplinasOfertadasFaltas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 13:58:22 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdDisciplinasOfertadasFalta" id="446C6688-F87F-3ED0-02A4-EAD5CD5A7AFC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 13:58:34 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdDisciplinaOfertada" id="4968CF4D-2073-C9BD-4B0C-0FAFA8D18CAA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 13:59:44 UTC</createdTime>
+<generatorID>0E03974E-595D-FEE2-A141-E04323720BED</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>032C0DFB-3425-0601-193E-AFE2422E0790</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdMatricula" id="3B4AB641-163B-0FCC-91F6-DEDE01F80CF3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:03:11 UTC</createdTime>
+<generatorID>BD319987-9723-7931-307E-390432C224F8</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>F8E41D23-EEA2-5F79-8CD4-C224AA2A96B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37B6DFD6-199C-DB30-0F5B-5D50EA1482B1" name="DisciplinasOfertadasFaltas PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 13:58:45 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>446C6688-F87F-3ED0-02A4-EAD5CD5A7AFC</attributeRef>
+<attributeRef>3B4AB641-163B-0FCC-91F6-DEDE01F80CF3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

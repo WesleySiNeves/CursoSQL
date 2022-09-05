@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B70BA56-BD18-5D95-7AD8-E237F6188CD4" schemaObject="D159F3AE-63DC-8653-7E67-039D9548BE3D" name="DisciplinasOfertadasFaltas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>141C9FD6-D9D1-E9CE-5428-CABD4A1723A3</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDisciplinasOfertadasFalta" id="25138933-B1F2-8A96-BDCB-AD0AB7706A3E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>446C6688-F87F-3ED0-02A4-EAD5CD5A7AFC</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdDisciplinaOfertada" id="03E93C76-7CD1-1B5B-E255-AF90A003C496">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>4968CF4D-2073-C9BD-4B0C-0FAFA8D18CAA</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="324DD1F9-2519-9E7E-E365-CD28D35A0A41" referredColumn="4D68AF15-DC01-F7B9-47EF-3275B0F45F2B"/>
+</associations>
+</Column>
+<Column name="IdMatricula" id="CBFF2B08-5A69-4A09-F182-491780CAB8FD">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>3B4AB641-163B-0FCC-91F6-DEDE01F80CF3</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66B06390-A4BD-E42F-62B9-B792B30A557C" referredColumn="921D4CA6-63EE-861C-942D-67A02925BD60"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38B10242-27DE-7D1F-7F18-4288F3FDDC57" name="DisciplinasOfertadasFaltas_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>37B6DFD6-199C-DB30-0F5B-5D50EA1482B1</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25138933-B1F2-8A96-BDCB-AD0AB7706A3E"/>
+<colUsage columnID="CBFF2B08-5A69-4A09-F182-491780CAB8FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B8E0D46-6BE3-31E9-21B0-0294A11DF865" name="DisciplinasOfertadasFaltas_DisciplinasOfertadas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>0E03974E-595D-FEE2-A141-E04323720BED</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03E93C76-7CD1-1B5B-E255-AF90A003C496"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26AE69EC-236E-18C9-E4AE-F2F29359708C" name="DisciplinasOfertadasFaltas_Matriculas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>BD319987-9723-7931-307E-390432C224F8</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBFF2B08-5A69-4A09-F182-491780CAB8FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

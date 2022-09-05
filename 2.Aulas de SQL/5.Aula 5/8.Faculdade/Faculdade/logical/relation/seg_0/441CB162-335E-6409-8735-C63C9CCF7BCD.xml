@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Pessoas_Possuem_Emails" directorySegmentName="seg_0" id="441CB162-335E-6409-8735-C63C9CCF7BCD">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 15:18:31 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourcePk>9FD3EBE4-D403-8DD3-489E-D006DF8F561F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6CF94617-C7BD-F817-DBF6-4658703586CA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>81A7090F-1FDE-1D5A-41F8-599108671D47</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

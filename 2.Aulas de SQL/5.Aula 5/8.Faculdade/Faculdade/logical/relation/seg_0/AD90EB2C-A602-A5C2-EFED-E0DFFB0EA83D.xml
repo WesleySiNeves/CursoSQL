@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_InstituicaoEnsinoCampus_Possue_Salas" directorySegmentName="seg_0" id="AD90EB2C-A602-A5C2-EFED-E0DFFB0EA83D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-27 12:00:20 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourcePk>E44AB914-22A9-7562-3654-4D1F358D45E9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F826E913-13B5-1E4F-3479-B165F9F149EA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1A4FDE03-CFBE-750B-5010-10262DD0DC58</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

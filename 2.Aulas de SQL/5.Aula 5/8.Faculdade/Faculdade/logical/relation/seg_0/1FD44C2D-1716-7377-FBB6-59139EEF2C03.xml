@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Professores_Possuem_Situacao" directorySegmentName="seg_0" id="1FD44C2D-1716-7377-FBB6-59139EEF2C03">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 19:06:19 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>6F723D87-B482-4741-9D63-E5BD16DCC89B</sourcePk>
+<dominantRole>EDA4F612-DDB1-142B-B2A0-711425F80AC1</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EDA4F612-DDB1-142B-B2A0-711425F80AC1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3DBA4365-98B2-321C-3559-678DC697E1D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

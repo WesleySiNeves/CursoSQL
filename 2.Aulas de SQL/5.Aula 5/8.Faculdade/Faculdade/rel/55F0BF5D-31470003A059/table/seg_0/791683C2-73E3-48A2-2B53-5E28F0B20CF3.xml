@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="791683C2-73E3-48A2-2B53-5E28F0B20CF3" schemaObject="486A1789-82DA-3B4D-A20A-DC11F15CE542" name="PessoasEnderecos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>A441A984-F167-1F94-FB33-66C448BCF69E</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPessoaEndereco" id="B7363075-A2EC-E733-A6CD-5E7B9C51BD0C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>2561534E-57D2-A7D7-1473-6E45F71E97DD</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco" id="72484F30-BD29-55C5-B87A-18D2E993D10A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>BE010DC7-78E0-164C-6DAD-181499F435CC</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rua" id="02DC5FDB-D38D-297F-2031-956D0ED39D74">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>B7073D42-A44D-EF48-6DF2-66EB1E40ED54</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Complemento" id="2F81FDD1-4B94-3D44-8028-D8DD6637A9C3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>E0495AE1-DF0A-8E45-C08F-BC7680E1EF40</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bairro" id="1CFE0925-765E-0B98-0C9A-01DC0721EEB5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>5291F524-4EFF-251B-CA4C-3C14B3165A85</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="C2630663-0F5E-E757-8E0D-59A26FCB348A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>2CC51265-E96B-054F-91C5-194E8B5B4D45</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdPessoa" id="191515A9-EB9F-6FB1-0A0E-C4670B49CE9A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>F12F9A22-6928-B0B0-8886-D56366769157</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B9AE182-6F44-C3DE-7D5F-57198159EF77" referredColumn="5832E468-5C36-4471-0504-6F7DFDBE2DC0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="075EB181-3C68-A408-CDA3-8710B8F0B5C4" name="PessoasEnderecos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>FAE1BA74-1947-E897-0865-745704B32C37</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7363075-A2EC-E733-A6CD-5E7B9C51BD0C"/>
+<colUsage columnID="191515A9-EB9F-6FB1-0A0E-C4670B49CE9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22A426A3-0FBE-E2E7-7CDA-871216A4A512" name="PessoasEnderecos_Pessoas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>B690739A-90A4-D39F-7B52-1EF491A830E3</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="191515A9-EB9F-6FB1-0A0E-C4670B49CE9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

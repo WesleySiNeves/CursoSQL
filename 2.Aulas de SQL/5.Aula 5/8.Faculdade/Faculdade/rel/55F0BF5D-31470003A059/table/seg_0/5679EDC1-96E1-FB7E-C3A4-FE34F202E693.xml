@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5679EDC1-96E1-FB7E-C3A4-FE34F202E693" schemaObject="D159F3AE-63DC-8653-7E67-039D9548BE3D" name="Salas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>1A4FDE03-CFBE-750B-5010-10262DD0DC58</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdSala" id="442D19D5-FFA0-D58F-E4FC-36A55A5E963F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>1380C8FE-06B6-D519-BC6C-2DDED91A0C63</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PossueQuadroBranco" id="7A67DE51-2399-C63A-A14B-4A89A566C44E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>976E7E27-15D0-0F8A-3CF7-F66D23182DDD</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PossueArCondicionado" id="81538483-B41A-FAB3-4C31-C2AAD50867CF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>BFB9E5BB-3550-F00B-DC68-D485051D3AE6</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PossueProjetor" id="F503511D-A475-EB8C-CA7F-64DB45F9890B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>C476708A-1F65-4690-A6C9-267159F2DCFB</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CapacidadeMaximaAlunos" id="F56079C3-559A-8361-E3BF-8C1DA80E65D8">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>9FB1FC82-1FC3-23AC-B853-DE23E162593E</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdInstituicaoEnsinoCampus" id="67B67937-B8EB-8065-2BA7-90D92F1D8846">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>0183EB0A-17F6-1969-F027-D9BFB2AE9BB2</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85646D83-974B-34C7-39A8-9D3049C4A0DD" referredColumn="02996A9C-E285-C4CB-161A-6221AE03A541"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2F3A272-DB2E-AFC0-9769-394BD46ED7D3" name="Salas_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>17CCEE08-AB64-E836-5E24-395236715DC3</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="442D19D5-FFA0-D58F-E4FC-36A55A5E963F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F48DFA6-C0B3-51E8-F18B-83ADC91038DC" name="Salas_InstituicaoEnsinoCampus_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>AD90EB2C-A602-A5C2-EFED-E0DFFB0EA83D</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B67937-B8EB-8065-2BA7-90D92F1D8846"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

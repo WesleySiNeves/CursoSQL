@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0470FEE-2DC7-5118-7D10-1B7CAA1E10CD" schemaObject="486A1789-82DA-3B4D-A20A-DC11F15CE542" name="PessoasFisicas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>E5EAF568-11BA-9328-5139-D7C626860BF9</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPessoaFisica" id="1E7FF725-10F7-2E90-41D1-54F16476D657">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>D05FF86A-7663-E78C-2C47-E76F3064B10C</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdPessoa" id="617AC3CB-D268-9A20-7375-28E33F2B7C2E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>D0344D63-B973-AE24-5E24-4A756C14E8F0</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC827B2D-AA97-F558-9FB1-1454CF550D45" referredColumn="5832E468-5C36-4471-0504-6F7DFDBE2DC0"/>
+</associations>
+</Column>
+<Column name="CPF" id="68B6A2E2-3AC3-D4E3-5388-F7400E47ADCC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>87EA8456-EFCE-693F-7BEC-DE5B9C8CCD5B</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RG" id="ABD3E611-1CBD-0F44-C523-47B5BB93EB1E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>D7DEE58B-E248-6D0D-7E9A-439E01D319E4</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo" id="096B938E-126F-6B87-8BBE-F1BBB2ED7BC5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>8A5B740C-B79B-2B30-35A2-DED60709FF1A</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataNascimento" id="E05AFBAA-8C2C-B7A3-F38F-4AB5FFF0D0D0">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>BC4D1789-ADC8-2850-C78A-C91C4EB8777E</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25A4C6B0-1986-038F-A16E-4C6F4F7EF5A5" name="PessoasFisicas_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>742D388C-F8D5-5962-DB0D-5B3EE1151A4E</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E7FF725-10F7-2E90-41D1-54F16476D657"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46EE9E0B-7D29-D873-1DC4-56EDEDA17487" name="Unique_CadastroPessoasFisicas_IdPessoa">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AC993D72-38A8-3F73-F1AA-4E5B6B6C817F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="617AC3CB-D268-9A20-7375-28E33F2B7C2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D73A3F8C-F302-DB9A-D5C1-B8A9C418A29B" name="PessoasFisicas_Pessoas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>AC993D72-38A8-3F73-F1AA-4E5B6B6C817F</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="617AC3CB-D268-9A20-7375-28E33F2B7C2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

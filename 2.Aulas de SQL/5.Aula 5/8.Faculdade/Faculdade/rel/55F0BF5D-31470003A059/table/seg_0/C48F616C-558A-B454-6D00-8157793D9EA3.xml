@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C48F616C-558A-B454-6D00-8157793D9EA3" schemaObject="D159F3AE-63DC-8653-7E67-039D9548BE3D" name="Professores">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>3DBA4365-98B2-321C-3559-678DC697E1D2</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdProfessor" id="0436BEA3-7DFC-F90F-4D59-9305095CAD9D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>1DB1E9E0-9DC6-C2BF-A237-6766565CE19B</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdPessoaFisica" id="E59EEF2F-4414-8DF7-C8D4-F8442A6DEC72">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>2D024267-5435-A808-FE30-84213475313C</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C5AFC1A-BC17-0FDF-6FE6-D180BDDCDF1C" referredColumn="1E7FF725-10F7-2E90-41D1-54F16476D657"/>
+</associations>
+</Column>
+<Column name="Curriculum" id="46FA5C74-A2BE-A770-A46B-20DD049547EC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>59A3FD4F-D42D-9FA2-5272-4F9FF703A526</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsCoordenador" id="F505C410-4784-A1A5-E3BE-AD48EC5CD3BA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>62338E79-CC8C-D797-ADE7-CAE0C0AC08D4</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdProfessoresSituacao" id="B81274E3-D861-6D87-39AC-FDFAB39AB833">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>9AB6B2E8-C283-CE12-F46C-D52D6A9DDB52</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F9E6398-D5B9-487F-1A01-8D48FBFCD4C4" referredColumn="D12A63FE-94E4-9F2B-A9C0-95D3ADC9D11B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF6F34B9-C2DE-073E-0072-64C3F97D3A6B" name="Professores_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>4ADF2461-3690-F592-B50C-B35DDD74AE26</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0436BEA3-7DFC-F90F-4D59-9305095CAD9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC237417-DD3F-992B-CAD4-419AD20BB6E5" name="Professores__IDX">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>48313365-4A5F-0EEE-7A9E-251CE45AA09A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E59EEF2F-4414-8DF7-C8D4-F8442A6DEC72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E20790C-D663-FBED-28F7-81CB5FBBCF5E" name="Professores__IDXv1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1FD44C2D-1716-7377-FBB6-59139EEF2C03</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B81274E3-D861-6D87-39AC-FDFAB39AB833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA501CD7-D7A5-E92C-8388-67FDCD4B3A3D" name="Professores_PessoasFisicas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>48313365-4A5F-0EEE-7A9E-251CE45AA09A</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E59EEF2F-4414-8DF7-C8D4-F8442A6DEC72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46022E3D-46CA-2A43-9893-BBFC39DA8AB7" name="Professores_ProfessoresSituacoes_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>1FD44C2D-1716-7377-FBB6-59139EEF2C03</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B81274E3-D861-6D87-39AC-FDFAB39AB833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

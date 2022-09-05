@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35CBF330-EF7D-E60E-57CE-928B84CB7EB8" name="Disciplinas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:11:11 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdDisciplina" id="9BA46AD1-C4BF-5E62-A05D-09ABAC5C4817">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:11:23 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="69B092F2-1DE9-0EF4-526A-E2F34E73DB6C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:09:40 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CargaHorariaHoras" id="034CAD90-1A8F-3C0F-ED50-AB98B6268AED">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:11:05 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ementa" id="CEDF46E7-61F4-D585-C3F5-C59738F991F2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:53:42 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>MAX</dataTypeSize>
+<ownDataTypeParameters>MAX,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCurso" id="F78CA2B4-252F-2BCF-AD53-C20293E6593B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 18:55:25 UTC</createdTime>
+<generatorID>8BF0BF87-F67E-6A1B-489F-ADDC19ECA7C7</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>6D83B311-7736-88C7-AD30-7A8E5B7C5729</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F135974-655D-CBCB-78DE-4347B91962CB" name="Disciplinas PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:11:34 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9BA46AD1-C4BF-5E62-A05D-09ABAC5C4817</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Pessoas_Possuem_Enderecos" directorySegmentName="seg_0" id="B690739A-90A4-D39F-7B52-1EF491A830E3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 15:16:58 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourcePk>9FD3EBE4-D403-8DD3-489E-D006DF8F561F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6CF94617-C7BD-F817-DBF6-4658703586CA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A441A984-F167-1F94-FB33-66C448BCF69E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="695DDE82-5F16-A046-82E5-320918F39AE5" schemaObject="D159F3AE-63DC-8653-7E67-039D9548BE3D" name="CursosOfertados">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>EB498D3C-D9E3-6545-5F3F-92D1AAEA877A</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCursoOfertado" id="9B9AA26E-C162-14A2-B3C8-CDCA4EB67A05">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>4DB070E1-0FBC-C27C-C6F4-6AC32625B7D4</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCurso" id="8DEB0CCB-BCB9-4E9B-C9E1-95BACEA622CE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>E4B29BEE-D457-08CD-A5FB-0CB4EBA0991E</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1885FB0-F6B1-5920-0922-29EFE535C9F2" referredColumn="FB6CFEB2-9B40-5339-47A0-0607C1D498AA"/>
+</associations>
+</Column>
+<Column name="IdPeriodo" id="92DFF386-57E8-35A6-FBF2-C1C8C78681FB">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>80C38138-E7CE-106C-B5B1-1989267C2D9C</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F35F7E5D-F8FE-7652-EA7F-13ED72DA95C9" referredColumn="919F9F6D-4D06-DA2D-E70E-44A6F84BA5AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2547F4C6-2D73-EF50-3CA6-EA76432F1659" name="CursosOfertados_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>1ACF51CA-4518-98FA-155B-028E4A6F30C6</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B9AA26E-C162-14A2-B3C8-CDCA4EB67A05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64B9CF34-97A7-3DAE-E53C-29BC739EA842" name="CursosOfertados__IDX">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>52BBD981-9603-9D8A-8C14-F7F8D53DC94F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="92DFF386-57E8-35A6-FBF2-C1C8C78681FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F5D1985-9D06-72A5-7082-CC2BD3007DA7" name="CursosOfertados_Periodos_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>52BBD981-9603-9D8A-8C14-F7F8D53DC94F</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92DFF386-57E8-35A6-FBF2-C1C8C78681FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A199174E-EE05-CE5C-A55A-F7790FAEDFB0" name="CursosOfertados_Cursos_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>F533B4CA-5C03-EAE7-1DC4-F56BC5DA86BE</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DEB0CCB-BCB9-4E9B-C9E1-95BACEA622CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

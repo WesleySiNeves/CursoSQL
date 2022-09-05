@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BDB97FE-92A0-D6CA-1009-EAEB893AB51B" name="PessoasTelefones">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:37:03 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdPessoaTelefone" id="174CA536-081D-792A-0FCA-CF2D2BB1EE59">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:37:11 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="96F8F6AE-99CD-CB83-BC2E-AD89D8C35A43">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:37:24 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsPessoal" id="0AA20601-0789-01B2-D919-B017AE2B0CE8">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:37:40 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsAtualizado" id="D8EE85CC-6714-D7F3-703F-A296603148BA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:38:12 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPessoa" id="F379FED9-D058-FA3A-5FFD-DC225F5FCAFC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 15:17:55 UTC</createdTime>
+<generatorID>52A1D08C-3799-215F-47E6-4F4A85C51090</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>F79C36D6-AC43-7939-E864-1AF76696F22E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12FA17C1-7031-A3DA-EB69-9DBD63ED5BDD" name="PessoasTelefones PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:37:23 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>174CA536-081D-792A-0FCA-CF2D2BB1EE59</attributeRef>
+<attributeRef>F379FED9-D058-FA3A-5FFD-DC225F5FCAFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

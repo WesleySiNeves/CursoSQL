@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PessoasFisica_Is_Professor" directorySegmentName="seg_0" id="48313365-4A5F-0EEE-7A9E-251CE45AA09A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 15:21:22 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourcePk>742D388C-F8D5-5962-DB0D-5B3EE1151A4E</sourcePk>
+<dominantRole>E5EAF568-11BA-9328-5139-D7C626860BF9</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E5EAF568-11BA-9328-5139-D7C626860BF9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3DBA4365-98B2-321C-3559-678DC697E1D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

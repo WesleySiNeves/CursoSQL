@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EDC15EC-136D-A089-E8D7-A16C495FADD3" schemaObject="D159F3AE-63DC-8653-7E67-039D9548BE3D" name="AlunosSituacoes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>4172BF6A-36C2-4DA6-2D19-E6F5C35F2AE7</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdSituacao" id="B25FC4A2-5D09-BB19-F5CE-4F0780BDD6D3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>D190507E-8FF1-7DF7-B75D-FB44A881AC0E</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<sourceType>Manual</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_AlunosSituacoesIdSituacao</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+<generateConstraintInDDL>NO</generateConstraintInDDL>
+</Column>
+<Column name="Descricao" id="E7995D7A-CC60-3048-EAE2-F3E5B8B00BF3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>4D557E26-0AF5-B8A0-00EB-8347D2EEE2AD</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_AlunosSituacoes_Descricao</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="595B4770-0AD7-492D-3318-0F9DD01704A5" name="AlunosSituacoes_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>44C5CE89-A0B6-204C-3FF6-A59D74B1812E</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B25FC4A2-5D09-BB19-F5CE-4F0780BDD6D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

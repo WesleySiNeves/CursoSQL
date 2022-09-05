@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81A7090F-1FDE-1D5A-41F8-599108671D47" name="PessoasEmails">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:40:55 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdPessoaEmail" id="63FE6E25-122B-92FC-A80A-39A40EB8A212">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:41:03 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="B6425236-89E7-A34F-8BE2-A8CF19B1F42C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:41:21 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsPessoal" id="FA5AD205-DC78-4948-5418-550F18ED3E9D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:41:39 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsAtual" id="158F8AD6-D3A6-8D46-6648-D2DACC4D0ABF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:42:22 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsInstitucional" id="6FE1415B-5A4D-D74A-22F0-A0C35FBCDB25">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:42:39 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPessoa" id="3AC6DF28-E179-8775-49A0-95C5863A9287">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 15:18:31 UTC</createdTime>
+<generatorID>441CB162-335E-6409-8735-C63C9CCF7BCD</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>F79C36D6-AC43-7939-E864-1AF76696F22E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5932FA46-A119-39E1-B51E-F96A4CFD9E03" name="PessoasEmails PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:41:18 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63FE6E25-122B-92FC-A80A-39A40EB8A212</attributeRef>
+<attributeRef>3AC6DF28-E179-8775-49A0-95C5863A9287</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

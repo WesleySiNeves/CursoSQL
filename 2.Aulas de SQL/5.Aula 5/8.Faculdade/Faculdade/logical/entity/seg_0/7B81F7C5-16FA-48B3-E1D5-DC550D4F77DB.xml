@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B81F7C5-16FA-48B3-E1D5-DC550D4F77DB" name="Alunos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:01:42 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdAluno" id="B109A973-CF7B-06EF-4A09-18C48129E7CC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:01:47 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPessoaFisica" id="3640AF75-1B9A-D7A8-8DA0-57F2A5C1EB3E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 15:20:42 UTC</createdTime>
+<generatorID>FE38EBFA-83AF-BA72-7E0D-F1A556ABD012</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>D05FF86A-7663-E78C-2C47-E76F3064B10C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdSituacao" id="44A8FAE4-3FE1-39E9-4BD6-B60246B55DD5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 15:32:45 UTC</createdTime>
+<generatorID>1272CF76-2D64-05E7-4027-0D8501CAF6AD</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>D190507E-8FF1-7DF7-B75D-FB44A881AC0E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CodAluno" id="14E59DE3-C52D-89CB-413C-3EB514978E29">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 15:56:11 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RendaFamiliar" id="B8761322-00F6-EF37-4823-00E025C92317">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 18:06:07 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6700437-D12C-36E3-B5A9-4959DD8C411C" name="Alunos PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:01:58 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B109A973-CF7B-06EF-4A09-18C48129E7CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

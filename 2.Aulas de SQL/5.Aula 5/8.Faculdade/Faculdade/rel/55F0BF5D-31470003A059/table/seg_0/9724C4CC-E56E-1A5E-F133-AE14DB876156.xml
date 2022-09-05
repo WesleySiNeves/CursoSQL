@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9724C4CC-E56E-1A5E-F133-AE14DB876156" schemaObject="D159F3AE-63DC-8653-7E67-039D9548BE3D" name="Alunos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>7B81F7C5-16FA-48B3-E1D5-DC550D4F77DB</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAluno" id="2B68753A-A952-5EDE-2C71-23629F0CB636">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>B109A973-CF7B-06EF-4A09-18C48129E7CC</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdPessoaFisica" id="8BE64BB9-218C-A315-340F-0F4AC022AD5C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>3640AF75-1B9A-D7A8-8DA0-57F2A5C1EB3E</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02161CC0-67E0-EF61-1DDA-59CB6585DDC8" referredColumn="1E7FF725-10F7-2E90-41D1-54F16476D657"/>
+</associations>
+</Column>
+<Column name="IdSituacao" id="2A2B5818-6B7A-F53E-4F18-46CDA8AD64D5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>44A8FAE4-3FE1-39E9-4BD6-B60246B55DD5</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CBADF18-4893-A333-31B8-D6CFFE00145A" referredColumn="B25FC4A2-5D09-BB19-F5CE-4F0780BDD6D3"/>
+</associations>
+</Column>
+<Column name="CodAluno" id="8B220202-3747-0733-BDDA-05065E4D8302">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>14E59DE3-C52D-89CB-413C-3EB514978E29</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RendaFamiliar" id="78ECE8F8-BDAD-3465-0AFD-BF9AF51BB8F5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>B8761322-00F6-EF37-4823-00E025C92317</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF79AA62-8D9B-6E72-D471-5F4AA0ABC243" name="Alunos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>C6700437-D12C-36E3-B5A9-4959DD8C411C</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B68753A-A952-5EDE-2C71-23629F0CB636"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71A14887-754A-4B26-EB61-0EC253E930E7" name="Unique_FaculdadeAlunos_IdPessoaFisica">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FE38EBFA-83AF-BA72-7E0D-F1A556ABD012</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8BE64BB9-218C-A315-340F-0F4AC022AD5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBEFE3CE-4A7C-DE1F-A112-2CD9AB2DDE25" name="Unique_FaculdadeAlunosSituacao_IdSituacao">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1272CF76-2D64-05E7-4027-0D8501CAF6AD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2A2B5818-6B7A-F53E-4F18-46CDA8AD64D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99D3F8B4-FC29-CF18-D7D2-E64CC1880ADE" name="Alunos_PessoasFisicas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>FE38EBFA-83AF-BA72-7E0D-F1A556ABD012</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BE64BB9-218C-A315-340F-0F4AC022AD5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFD79E79-7C2A-BC7A-87D7-67B58098FF38" name="Alunos_AlunosSituacoes_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>1272CF76-2D64-05E7-4027-0D8501CAF6AD</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A2B5818-6B7A-F53E-4F18-46CDA8AD64D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

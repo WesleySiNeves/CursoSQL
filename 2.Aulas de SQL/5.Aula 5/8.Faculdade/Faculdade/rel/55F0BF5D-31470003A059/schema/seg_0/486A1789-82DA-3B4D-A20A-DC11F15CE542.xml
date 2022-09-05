@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="Cadastro" directorySegmentName="seg_0" id="486A1789-82DA-3B4D-A20A-DC11F15CE542">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:19:12 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<ordsAlias>schema_1</ordsAlias>
+</SchemaObject>

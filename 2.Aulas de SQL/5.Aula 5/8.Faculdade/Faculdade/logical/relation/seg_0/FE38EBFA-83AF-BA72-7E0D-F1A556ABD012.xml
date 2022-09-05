@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Pessoas_Fisicas_Is_Aluno" directorySegmentName="seg_0" id="FE38EBFA-83AF-BA72-7E0D-F1A556ABD012">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 15:20:42 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourcePk>742D388C-F8D5-5962-DB0D-5B3EE1151A4E</sourcePk>
+<dominantRole>E5EAF568-11BA-9328-5139-D7C626860BF9</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E5EAF568-11BA-9328-5139-D7C626860BF9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7B81F7C5-16FA-48B3-E1D5-DC550D4F77DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

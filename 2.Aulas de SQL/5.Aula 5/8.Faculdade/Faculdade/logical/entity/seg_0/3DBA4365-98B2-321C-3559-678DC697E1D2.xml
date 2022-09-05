@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DBA4365-98B2-321C-3559-678DC697E1D2" name="Professores">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:52:07 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdProfessor" id="1DB1E9E0-9DC6-C2BF-A237-6766565CE19B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:52:13 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPessoaFisica" id="2D024267-5435-A808-FE30-84213475313C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 15:21:22 UTC</createdTime>
+<generatorID>48313365-4A5F-0EEE-7A9E-251CE45AA09A</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>D05FF86A-7663-E78C-2C47-E76F3064B10C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Curriculum" id="59A3FD4F-D42D-9FA2-5272-4F9FF703A526">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:14:14 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsCoordenador" id="62338E79-CC8C-D797-ADE7-CAE0C0AC08D4">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 18:13:03 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdProfessoresSituacao" id="9AB6B2E8-C283-CE12-F46C-D52D6A9DDB52">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 19:06:19 UTC</createdTime>
+<generatorID>1FD44C2D-1716-7377-FBB6-59139EEF2C03</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>AC7C079A-9481-5455-3DF8-A790638BC0D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4ADF2461-3690-F592-B50C-B35DDD74AE26" name="Professores PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:52:22 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1DB1E9E0-9DC6-C2BF-A237-6766565CE19B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2669302-94E6-875E-365B-F028A3682B6B" schemaObject="D159F3AE-63DC-8653-7E67-039D9548BE3D" name="Turmas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>ECA8D8B1-8D42-CCE1-E4C0-D4F8F686C81C</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTurma" id="8EF91576-854D-A30A-4C94-B1552C98ED23">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>A16073B5-F855-0EB7-71E8-4B4AEDCE9F5B</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodTurma" id="8467D2C4-81FC-8CF4-8D70-89026B7BF590">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>3870C116-374D-6F47-6688-077A11548090</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdDisciplinaOfertada" id="BF70D626-247C-4069-0717-6FBBA10F3D0C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>E3EB7202-F5DC-7611-3441-6BA6899691C4</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CAA49C4-8465-C7FC-FAEB-8C63B55A476F" referredColumn="4D68AF15-DC01-F7B9-47EF-3275B0F45F2B"/>
+</associations>
+</Column>
+<Column name="IdMatricula" id="8BB27045-500B-CE97-49FC-F2EB4CDAFBC4">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>59076E97-02A0-2BFE-64D9-90AC9100B319</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C38F04E9-12B9-0F21-29D7-5512A37B21ED" referredColumn="921D4CA6-63EE-861C-942D-67A02925BD60"/>
+</associations>
+</Column>
+<Column name="IdSala" id="15601499-F5F0-2DE5-F280-0822FF3700A1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>7372219A-D46D-E0BC-FE73-83200E48155A</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7543E54F-F4FC-E59C-0EE4-DF2A53306413" referredColumn="442D19D5-FFA0-D58F-E4FC-36A55A5E963F"/>
+</associations>
+</Column>
+<Column name="IsVitrual" id="8D53E820-E914-3AAC-315C-99068C26C8AC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>7FDC0616-0239-00CB-FFAA-BC25F7C801AD</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D338F7D-5EB8-6C2F-AA38-8724EE4EE613" name="Turmas_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>88348035-4A5B-E7BE-37F5-F2738C18FCDC</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EF91576-854D-A30A-4C94-B1552C98ED23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E0A8655-238E-3E02-3B40-AB9838051A57" name="Turmas__IDX">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>33B0AD91-63CB-1406-DDC3-55C6D8431B8D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BF70D626-247C-4069-0717-6FBBA10F3D0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26D753BF-BFA3-A876-61AE-AB7437BC8C38" name="Turmas__IDXv1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EB43D61A-EB13-9012-820E-80922B5BA872</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="15601499-F5F0-2DE5-F280-0822FF3700A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56FF98ED-C741-FCDD-E88B-57D6E3F09D58" name="Turmas__IDXv2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>17FCE198-CF24-648C-3ADA-34D70B9CBC30</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8BB27045-500B-CE97-49FC-F2EB4CDAFBC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9381E338-7F69-7D1A-3A04-650B57FBD070" name="Turmas_DisciplinasOfertadas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>33B0AD91-63CB-1406-DDC3-55C6D8431B8D</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF70D626-247C-4069-0717-6FBBA10F3D0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98713930-3FB6-0FEB-F331-406D2E1A18DD" name="Turmas_Salas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>EB43D61A-EB13-9012-820E-80922B5BA872</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15601499-F5F0-2DE5-F280-0822FF3700A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E200E7FA-0188-7241-1074-006BFEC4C9A2" name="Turmas_Matriculas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>17FCE198-CF24-648C-3ADA-34D70B9CBC30</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BB27045-500B-CE97-49FC-F2EB4CDAFBC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Professores_Disciplinas" directorySegmentName="seg_0" id="33E62FA9-89AB-0157-067C-47D22CA2D258">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 18:50:57 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourcePk>25E84461-BF72-001C-1860-28E65DCD4185</sourcePk>
+<dominantRole>CF82D18A-48EE-4C99-F69B-09B16B8CEB54</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CF82D18A-48EE-4C99-F69B-09B16B8CEB54</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F3FB1179-C16A-1056-22F5-CCB30E1011DD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E7249C66-22DF-B952-A8C3-3DBEC4EB0396" containerWithKeyObject="DAA02D52-A500-1D1E-7B18-1C57424E4437" localFKIndex="93DFBCC5-2EC1-3C95-9BA0-D762D046C887" name="Matriculas_Periodos_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>044FCDD6-CCD5-8126-4DEA-93ADB7D38B49</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<referredTableLongName>Periodos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>141592A6-138E-FB03-7B55-73E2ABBCDBC9</referredTableID>
+<keyObject>0A3B41C9-1CB9-23B9-C9A0-8FF51533048F</keyObject>
+<referredKeyID>0A3B41C9-1CB9-23B9-C9A0-8FF51533048F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdPeriodo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

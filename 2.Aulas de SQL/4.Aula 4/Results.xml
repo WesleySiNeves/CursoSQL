@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <row>
+        <Nome>a minha primeira query</Nome>
+        <Idade>35</Idade>
+        <Profissao>Professor</Profissao>
+    </row>
+     <row>
+        <Nome>segundo registro</Nome>
+        <Idade>35</Idade>
+        <Profissao>Professor</Profissao>
+    </row>
+</data>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E899476-0BF6-6A95-10EE-ECC4058C8FDA" containerWithKeyObject="0BE790F2-1D10-C1D0-2320-779944B3DC09" localFKIndex="83B2B1E7-5E68-A2ED-5B51-0AEE4A992B4B" name="DisciplinasOfertadasNotas_TipoNotas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>2A9517A6-48E3-F9D0-8AAA-8486F973F6A4</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<referredTableLongName>TipoNotas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2C414F76-0DC4-977B-8734-E00280169E69</referredTableID>
+<keyObject>076B9251-68C6-799E-B83F-2E62F4B7B274</keyObject>
+<referredKeyID>076B9251-68C6-799E-B83F-2E62F4B7B274</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdTipoNota</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

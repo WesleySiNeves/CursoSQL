@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA4D75B3-54C8-4C85-E86F-901E9E6E460C" schemaObject="D159F3AE-63DC-8653-7E67-039D9548BE3D" name="ProfessoresDisciplinas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>CF82D18A-48EE-4C99-F69B-09B16B8CEB54</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdProfessorDisciplina" id="EBA21AD8-AC62-50A5-2D7C-D8304B6041BD">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>30BB161D-2E52-3C1E-3D23-C1BE101BFA36</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdProfessor" id="03D44BF9-901F-3190-7548-BF7944D7CEF1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>930D06FC-EECF-04C6-996F-FF38C43C78D6</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC7ED737-FC1A-EADB-9A52-1764ABDE5364" referredColumn="0436BEA3-7DFC-F90F-4D59-9305095CAD9D"/>
+</associations>
+</Column>
+<Column name="IdDisciplina" id="59E3B90D-40BD-60B1-D5CD-346D9557BEC8">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>938DFD9B-E625-098A-8DBF-0F4D4C1A57F6</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="151E8803-3D36-7A37-2301-230A0918FEF3" referredColumn="08646B38-8B87-CE79-E45D-C10F32A5F3B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F219B401-72EC-8D72-F9AB-DE6E26D727B4" name="ProfessoresDisciplinas_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>25E84461-BF72-001C-1860-28E65DCD4185</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBA21AD8-AC62-50A5-2D7C-D8304B6041BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38644E27-2482-B94B-1E7D-D9D699E2D715" name="ProfessoresDisciplinas_Disciplinas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>68DCCF94-86CD-92BF-A7EE-874A76166E04</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59E3B90D-40BD-60B1-D5CD-346D9557BEC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A21B679-F291-019A-FEF4-6CF11BD96D06" name="ProfessoresDisciplinas_Professores_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-28 14:04:26 UTC</createdTime>
+<generatorID>67851668-F974-E330-0111-2A56F7E5E7CD</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03D44BF9-901F-3190-7548-BF7944D7CEF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

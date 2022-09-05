@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Cursos_Possuem_Area_Conhecimento" directorySegmentName="seg_0" id="313E2CD6-A7E4-37A9-36E6-189C8600F56C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 15:41:05 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourcePk>09131364-17FA-F7F0-03B3-EDB5A8DC5F78</sourcePk>
+<dominantRole>274EB297-DF63-134A-C2DD-4F3FAF2C2D9A</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>274EB297-DF63-134A-C2DD-4F3FAF2C2D9A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9AB33DB2-AC51-DF34-2BC3-EFFB3EC29AAD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
